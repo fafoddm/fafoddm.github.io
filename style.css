@@ -1,0 +1,171 @@
+html, body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #4c5175;
+  }
+
+  #inicial{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #272a3b;
+    font-family:cursive;
+    opacity: 0.6;
+  }
+
+  .inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+.mi_foto {
+    width: 210px; 
+    height: 200px; 
+    border-radius: 25px;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 35px #1f202e;
+}
+.mi_foto:hover {
+    transform: scale(1.17);
+}
+
+.foto_texto {
+    display: flex;
+    align-items: center;
+}
+
+#lado_foto {
+    margin-left: 30px;
+}
+
+.foto_texto h3 {
+    color: #9fbec6;
+}
+
+h1 {
+    color: #b77e42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titulo {
+margin-left: 50px;
+}
+
+.presentacion, .contenido1, .contenido2 {
+font-size: 17px;
+width: 100%;
+height: 100%;
+background-color: #F9FAF5;
+text-align: center;
+}
+
+.fondo_color{
+    background-color: white;
+}
+
+.final {
+    background-color: #4c5175c4;  
+}
+
+.contenido1, .contenido2{
+flex: 1;
+}
+
+.final{
+    text-align: center;
+}
+
+.final #git, .final #gmail, .final #insta{
+    display: inline-block;
+}
+
+#git, #gmail, #insta {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#git:hover, #gmail:hover, #insta:hover {
+    transform: scale(1.3);
+}
+
+#logo_ruby, #logo_html, #logo_css, #logo_javascript {
+    width: 60px;
+    height: 60px;
+}
+
+#logo_jap {
+    width: 210px;
+    height: 50px;
+}
+
+.presentacion h2, .contenido1 h2, .contenido2 h2{
+    color: #262636;
+}
+
+.presentacion p,.contenido1 p, .contenido2 p{
+    color: #282c3f;
+}
+
+h3 a {
+    color: #9fbec6;
+    text-decoration: none ;
+}
+
+h3 a:hover {
+color: #b8c0c2;
+}
+
+#jap {
+    color: rgb(255, 172, 18);
+    text-decoration: none;
+}
+
+#jap2 {
+    color: rgb(255, 144, 18);
+    text-decoration: none;
+}
+
+#sobre_mi, #estudios, #conocimientos, #contacto{
+    text-decoration: none;
+    color: #bb8f61;
+    font-size: medium;
+    font-family:'Arial Narrow Bold', sans-serif;
+    transition: all 0.2 ease;
+    padding-top: 15px;
+}
+
+#contacto, #conocimientos {
+    padding-left: 50px;
+}
+
+#sobre_mi {
+    padding-left: 40px;
+}
+
+#estudios {
+    padding-right: 15px;
+}
+
+#sobre_mi:hover, #estudios:hover, #conocimientos:hover, #contacto:hover{
+    transform: scale(1.1)
+}
